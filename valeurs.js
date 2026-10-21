@@ -1,3 +1,3 @@
-console. log(boolean(0));
-console. log(boolean("0"));
-console. log(boolean(""));
+console.log(boolean(0));
+console.log(boolean("0"));
+console.log(boolean(""));
