@@ -1,14 +1,11 @@
 for (let nombre = 1; nombre <= 30; nombre++) {
-if (nombre % 3 === 0 && nombre % 5 === 0) {
-    console.log( i + " FizzBuzz");
-}       
-else if (nombre % 3 === 0) {
-    console.log( i +"Fizz");
-}   
-else if (nombre % 5 === 0) {
-    console.log(i +" Buzz");    
-
-
-else {
-    console.log(nombre);    
+    if (nombre % 3 === 0 && nombre % 5 === 0) {
+        console.log("FizzBuzz");
+    } else if (nombre % 3 === 0) {
+        console.log("Fizz");
+    } else if (nombre % 5 === 0) {
+        console.log("Buzz");
+    } else {
+        console.log(nombre);
+    }  nombre ++; 
 }
